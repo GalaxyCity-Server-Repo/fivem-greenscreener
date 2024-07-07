@@ -301,7 +301,7 @@ function createGreenScreenVehicle(vehicleHash, vehicleModel) {
 }
 
 
-RegisterCommand('screenshot', async (source, args) => {
+RegisterCommand('makescreenshot', async (source, args) => {
 	const modelHashes = [GetHashKey('mp_m_freemode_01'), GetHashKey('mp_f_freemode_01')];
 
 	SendNUIMessage({
